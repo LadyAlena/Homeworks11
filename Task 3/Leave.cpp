@@ -1,8 +1,8 @@
-#include "Leave.h"
+п»ї#include "Leave.h"
 
 namespace Leave {
 	std::string Leaver::leave(std::string msg)
 	{
-		return "До свидания, " + msg;
+		return "Р”Рѕ СЃРІРёРґР°РЅРёСЏ, " + msg;
 	}
 }
