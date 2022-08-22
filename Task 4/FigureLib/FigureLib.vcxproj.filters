@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Figure">
+      <UniqueIdentifier>{c67a2d23-3e3a-4de3-94f1-deaedcb36933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Triangle">
+      <UniqueIdentifier>{e3599a9c-f73d-4bd3-9fe8-9c1a00a27d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadrilateral">
+      <UniqueIdentifier>{185e40b5-2817-4448-a85b-20ba1c01e83e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Figure.cpp">
+      <Filter>Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GetInfoAboutFigure.cpp">
+      <Filter>Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Triangle.cpp">
+      <Filter>Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RightTriangle.cpp">
+      <Filter>Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IsoscelesTriangle.cpp">
+      <Filter>Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EquilateraltTriangle.cpp">
+      <Filter>Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Parallelogram.cpp">
+      <Filter>Quadrilateral</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Quadrilateral.cpp">
+      <Filter>Quadrilateral</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rectangle.cpp">
+      <Filter>Quadrilateral</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rhomb.cpp">
+      <Filter>Quadrilateral</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Square.cpp">
+      <Filter>Quadrilateral</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Figure.h">
+      <Filter>Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GetInfoAboutFigure.h">
+      <Filter>Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Triangle.h">
+      <Filter>Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RightTriangle.h">
+      <Filter>Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IsoscelesTriangle.h">
+      <Filter>Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EquilateraltTriangle.h">
+      <Filter>Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Parallelogram.h">
+      <Filter>Quadrilateral</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Quadrilateral.h">
+      <Filter>Quadrilateral</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Rectangle.h">
+      <Filter>Quadrilateral</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Rhomb.h">
+      <Filter>Quadrilateral</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Square.h">
+      <Filter>Quadrilateral</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
