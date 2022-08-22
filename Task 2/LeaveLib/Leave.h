@@ -4,7 +4,7 @@
 #ifdef LEAVELIB_EXPORTS
 #define LEAVE_API __declspec(dllexport)
 #else 
-#define LEAVE_API __declspec(dllexport)
+#define LEAVE_API __declspec(dllimport)
 #endif
 
 namespace Leave {
