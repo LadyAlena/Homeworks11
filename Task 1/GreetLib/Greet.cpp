@@ -1,8 +1,8 @@
-#include "Greet.h"
+п»ї#include "Greet.h"
 
 namespace Greet {
 	std::string Greeter::greet(std::string msg)
 	{
-		return "Здравствуйте, " + msg;
+		return "Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, " + msg;
 	}
 }
